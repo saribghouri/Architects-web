@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "roboto", sans-serif;
+}
+@media (min-width: 993px) {
+  .w3-col.l3 {
+    width: 24.99999%;
+  }
+}
+.header {
+  height: 60px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+.logo-div {
+  font-size: 20px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.anchor-div {
+  font-size: 20px;
+  margin-right: 30px;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.anchor-div a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+
+.logo-div a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+.container-1 {
+  display: flex;
+
+  padding: 0.01em 16px;
+}
+
+.container-1 img {
+  justify-content: center;
+  margin-left: 173px;
+  position: absolute;
+  margin-top: 63px;
+  width: 80%;
+  height: auto;
+}
+
+.container-1 h1 {
+  color: black;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  position: absolute;
+  /* top: -51%; */
+  left: 41%;
+  /* z-index: 1; */
+  margin-top: 20%;
+  font-size: 38px;
+}
+.w3-padding {
+  color: whitesmoke;
+  background-color: black;
+  opacity: 0.7;
+  padding: 8px 16px !important;
+}
+.w3-hide-small {
+  color: whitesmoke;
+  letter-spacing: 10px;
+}
+.container-2 {
+  color: black;
+  height: 75px;
+  display: flex;
+  margin-top: 47%;
+  font-size: 23px;
+  margin-left: 10%;
+}
+.projects-img {
+  margin-left: 5%;
+  margin-top: 15px;
+  display: flex;
+}
+.projects-img-2 {
+  margin-top: 16px;
+}
+.main-project div {
+  margin-left: 94px;
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-img img {
+  width: 308px;
+}
+.projects-img-2 img {
+  width: 308px;
+}
+.w3-padding-32 {
+  padding-top: 27px !important;
+  padding-bottom: 31px !important;
+  border-bottom: 1px solid rgb(233, 227, 227);
+
+  width: 88%;
+}
+
+/* .house-5 {
+} */
+.summer-house {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  /* top: -51%; */
+
+  /*  */
+
+  font-size: 17px;
+  background-color: black;
+
+  width: 7%;
+  height: 6%;
+  text-align: center;
+  padding: 5px;
+}
+.brick-house {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  /* top: -51%; */
+
+  z-index: 1;
+  font-size: 17px;
+  background-color: black;
+
+  width: 7%;
+  height: 6%;
+  text-align: center;
+  padding: 5px;
+}
+.renovated {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  /* top: -51%; */
+
+  z-index: 1;
+  font-size: 17px;
+  background-color: black;
+
+  width: 7%;
+  height: 6%;
+  text-align: center;
+  padding: 5px;
+}
+.barn-house {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  /* top: -51%; */
+
+  z-index: 1;
+  font-size: 17px;
+  background-color: black;
+
+  width: 7%;
+  height: 6%;
+  text-align: center;
+  padding: 5px;
+}
+.w3-container p {
+  /* padding-top: 27px !important;
+  padding-bottom: 50px !important; */
+  /* margin-bottom: 59px; */
+  width: 100%;
+  font-size: 24px;
+}
+.lorem-prg {
+  /* padding-top: 27px !important;
+  padding-bottom: 50px !important; */
+
+  width: 92%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container-3 {
+  flex-direction: column;
+}
+.John-Doe-1 {
+  width: 34%;
+}
+.fourth-container {
+  display: flex;
+}
